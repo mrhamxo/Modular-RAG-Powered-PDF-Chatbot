@@ -143,6 +143,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+myenv/
+logs
+uploaded_pdf/
+pdf_documents/
+research/
+backend/chroma_store/
 
 # Spyder project settings
 .spyderproject
