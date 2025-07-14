@@ -38,7 +38,7 @@ async def catch_exception_middleware(request: Request, call_next):
 
 # PDF Upload Endpoint                                                          
 @app.post("/upload_pdfs/")
-async def upload_pdfs(files: List[UploadFile] = File(...)):
+async def upload_pdf(files: List[UploadFile] = File(...)):
     """
     Save uploaded PDFs and update / create the Chroma vector store.
     """
