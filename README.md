@@ -26,7 +26,11 @@ Modular-RAG-Powered-PDF-Chatbot/
 │   │   ├── llm.py             # Prompt + LLaMA3 chain
 │   │   ├── query_handlers.py  # LLM execution
 │   │   ├── pdf_handler.py     # Uploading docs files
-│   └── logger.py              # Custom logging
+│   ├── logger.py              # Custom logging
+│   ├── .env                   # API key config
+│   ├── requirements.txt       # All dependencies
+│   ├── uploaded_pdf/          # Uploaded PDFs
+│   └── chroma_store/          # Persistent vector store
 ├── frontend/
 │   ├── app.py                 # Streamlit UI entrypoint
 │   ├── components/            # UI sections
@@ -36,10 +40,8 @@ Modular-RAG-Powered-PDF-Chatbot/
 │   ├── utils/                 # API connector
 │   │   ├── api.py            
 │   ├── config.py              # API connector
-├── uploaded_pdf/              # Uploaded PDFs
-├── chroma_store/              # Persistent vector store
-├── .env                       # API key config
-└── requirements.txt           # All dependencies
+│   └── requirements.txt       # Frontend dependencies
+
 
 ````
 ## 🚀 Getting Started
